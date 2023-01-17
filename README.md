@@ -1,3 +1,6 @@
+This App generates avatar which can be downloaded and used as per your need. click on any button below to get started.
+Demo link: https://avatar-initiator.netlify.app
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
