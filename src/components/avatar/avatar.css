@@ -1,0 +1,68 @@
+.nav {
+  height: 6vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(70, 53, 53);
+  color: beige;
+  font-size: 25px;
+  font-family: cursive;
+}
+.home {
+  background-color: beige;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 90vh;
+  align-items: center;
+  gap: 25px;
+  flex-direction: column;
+}
+
+.avatar {
+  height: 50%;
+  width: 50%;
+  max-width: 400px;
+  max-height: 400px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+button {
+  width: 6em;
+  height: 2.5em;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Roboto Mono", monospace;
+  background-color: rgba(245, 245, 245, 0.609);
+  box-shadow: 2px 3px 5px rgb(102, 101, 101);
+  border-radius: 15px;
+  border: none;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+button:active {
+  box-shadow: none;
+}
+
+.btns > button:hover {
+  background-color: #ffffff;
+}
+#gen {
+  background-color: rgb(221, 221, 124);
+  color: black;
+}
+#down {
+  background-color: #190c0e;
+  color: white;
+}
